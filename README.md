@@ -9,7 +9,7 @@ The Data Analysis and Procesing Consortium (DPAC), a large team of scientifics a
 One of the most important DPAC system is the Intermediate Data Updating (IDU), exected at the Marenostrum supercomputer hosted by the Barcelona Supercomututing Center (BSC). Every few months, all the raw data accumulated up to that moment need to be reprocess in order to:
 
  - refine the parameters from the astrometric images acquired by the instrument
- - refine the Cross Match (XM) for all the detections. 
+ - refine the Cross Match (XM) for all the detections 
  
 The number of data will be huge and it won't be possible to handle them in a single process. Moreover, limitation and contrains imposed by the features of the execution environment should be considered. 
 Therefore, it is necessary to optimize the Data Access Layer (DAL) in order to efficiently store the huge amount of data coming from the spacecraft and to access them in a smart manner, which was the main scope of the project. 
